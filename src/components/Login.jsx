@@ -31,17 +31,17 @@ export default function Login() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Styled SkinPro logo with underline */}
-      <h1 className="absolute top-6 left-6 text-white text-7xl font-extrabold tracking-wide 
-        bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 text-transparent bg-clip-text 
-        drop-shadow-lg underline decoration-transparent underline-offset-4">
+      <h1 className="absolute top-6 left-6 text-7xl font-extrabold tracking-wide 
+        text-transparent bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 
+        bg-clip-text drop-shadow-lg">
         SkinPro
       </h1>
 
       {/* Slogan below the SkinPro logo */}
-      <h2 className="absolute top-24 left-8 text-white text-2xl font-semibold tracking-wide 
-        bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 text-transparent bg-clip-text 
-        drop-shadow-lg">
-        Glow with Confidence
+      <h2 className="absolute top-24 left-8 text-2xl font-semibold tracking-wide 
+      text-transparent bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 
+      bg-clip-text drop-shadow-lg">
+      "Glow with Confidence"
       </h2>
 
       {/* Login Box with Glassmorphism */}

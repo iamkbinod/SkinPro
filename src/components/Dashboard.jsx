@@ -60,11 +60,12 @@ export default function Dashboard() {
       <nav className="bg-white shadow-sm z-10 relative">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           {/* Styled SkinPro logo with gradient */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide 
-            bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 text-transparent bg-clip-text 
-            drop-shadow-lg">
-            SkinPro
-          </h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide
+  text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600 bg-clip-text drop-shadow-xl brightness-110">
+  SkinPro
+</h1>
+
+
           <button
             onClick={handleLogout}
             className="py-2 px-4 text-sm font-medium text-red-600 hover:text-red-700"
@@ -75,18 +76,17 @@ export default function Dashboard() {
       </nav>
 
       {/* Added "Glow with Confidence" Text with new line for Confidence */}
-      <h2 className="absolute left-1/2 transform -translate-x-1/2 text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-wide 
-        bg-gradient-to-r from-blue-300 via-purple-400 to-pink-500 text-transparent bg-clip-text 
-        drop-shadow-lg z-0"
-        style={{
-          position: 'absolute',
-          left: '10%',  // Position left side of screen (adjust as needed)
-          top: '50%',
-          transform: 'translateY(-50%)'
-        }}>
-        "Glow with<br />
-        <span className="block pl-8"> Confidence"</span> {/* Confidence on a new line */}
-      </h2>
+      <h2 className="absolute left-1/2 transform -translate-x-1/2 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide 
+  text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600 bg-clip-text drop-shadow-xl brightness-110 z-0"
+  style={{
+    position: 'absolute',
+    left: '10%',
+    top: '50%',
+    transform: 'translateY(-50%)'
+  }}>
+  "Glow with<br />
+  <span className="block pl-8"> Confidence"</span>
+</h2>
 
       <div className="max-w-7xl mx-auto px-4 py-8 z-10 relative">
         {/* Image Upload Section */}
